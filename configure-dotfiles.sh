@@ -27,3 +27,11 @@ if [ ! -L "$DIR" ]; then
 else  
     echo "Error: ${DIR} exists"    
 fi
+
+DIR="$HOME/.vimrc"
+if [ ! -L "$DIR" ]; then  
+    ln -s ~/.dotfiles/.vimrc ~/.vimrc
+    echo "Create simbolic link ${DIR} ..."
+else  
+    echo "Error: ${DIR} exists"    
+fi
