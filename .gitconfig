@@ -8,3 +8,5 @@
 	defaultBranch = main
 [init]
 	defaultBranch = main
+[pull]
+	ff = only
