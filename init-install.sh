@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Iniciando instalacao..."
+
 sudo apt install curl -y
 sudo apt install git
 sudo apt install zsh
