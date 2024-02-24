@@ -35,3 +35,37 @@ if [ ! -L "$DIR" ]; then
 else  
     echo "Error: ${DIR} exists"    
 fi
+
+DIR="$HOME/.zshenv"
+if [ ! -L "$DIR" ]; then  
+    ln -s ~/.dotfiles/.zshenv ~/.zshenv
+    echo "Create simbolic link ${DIR} ..."
+else  
+    echo "Error: ${DIR} exists"    
+fi
+
+
+DIR="~/.zsh/functions.zsh"
+if [ ! -L "$DIR" ]; then  
+    ln -s ~/.dotfiles/.zsh/functions.zsh ~/.zsh/functions.zsh
+    echo "Create simbolic link ${DIR} ..."
+else  
+    echo "Error: ${DIR} exists"    
+fi
+
+DIR="~/.zsh/aliases.zsh"
+if [ ! -L "$DIR" ]; then  
+    ln -s ~/.dotfiles/.zsh/aliases.zsh ~/.zsh/aliases.zsh
+    echo "Create simbolic link ${DIR} ..."
+else  
+    echo "Error: ${DIR} exists"    
+fi
+
+DIR="~/.zsh/nvm.zsh"
+if [ ! -L "$DIR" ]; then  
+    ln -s ~/.dotfiles/.zsh/nvm.zsh ~/.zsh/nvm.zsh
+    echo "Create simbolic link ${DIR} ..."
+else  
+    echo "Error: ${DIR} exists"    
+fi
+
