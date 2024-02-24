@@ -1,6 +1,6 @@
 # Enable auto-env through the sdkman_auto_env config
 # Add key=value pairs of SDKs to use below
-java=21.0.1-oracle
+java=21.0.2-oracle
 maven=3.9.2
 jmeter=5.6
 activemq=5.17.1
