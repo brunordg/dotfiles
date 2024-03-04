@@ -3,7 +3,7 @@
 #
 
 #Alias
-alias o="nautilus ." 
+alias o="explorer.exe ." 
 alias op="cd ~/Environment"
 alias chrome="google-chrome --disable-gpu"
 alias egrep="grep -E --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox}"

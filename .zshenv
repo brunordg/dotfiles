@@ -1,6 +1,6 @@
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git mvn docker docker-compose kubectl)
+plugins=(git mvn docker docker-compose kubectl zsh-autosuggestions)
 
 export NVM_DIR="$HOME/.nvm"
 

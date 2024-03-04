@@ -4,6 +4,7 @@
 	email = 3471592+brunordg@users.noreply.github.com
 [core]
 	autocrlf = true
+	eol = lf
 [ini]
 	defaultBranch = main
 [init]
