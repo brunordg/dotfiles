@@ -15,3 +15,5 @@ sudo snap install httpie
 sudo snap install miro
 sudo url -s "https://get.sdkman.io" | bash
 
+echo "Finish install 🍺🍻🍺"
+
